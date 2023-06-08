@@ -1,6 +1,17 @@
 # Kvaser ROS Interface API
 The Kvaser ROS Interface API is based on the Autonomous Stuff Code (https://github.com/astuff/kvaser_interface). Kvser_interface is modified to enable CANFD communication.
 
+This package was developed as a standardized way to access Kvaser CAN devices from ROS. It can either be used as a development API by including the header <kvaser_interface/kvaser_interface.h> and linking against `libros_linuxcan.so` or the stand-alone node `kvaser_can_bridge` can communicate with a CAN device independently.
+
+Installation
+The `kvaser_interface` package depends on the Kvaser CANLIB API. You can install the Kvaser CANLIB from source [directly from Kvaser](https://www.kvaser.com/downloads/), however the easiest way to install is using our ppa which distributes them as deb packages:
+```bash
+sudo apt-add-repository ppa:astuff/kvaser-linux
+sudo apt update
+sudo apt install kvaser-canlib-dev kvaser-drivers-dkms
+```
+Now that the dependencies are installed, we can install kvaser_interface
+
 ## The `kvaser_can_bridge` Node
 
 **TOPICS**
