@@ -5,7 +5,7 @@
   <description>Kvaser CAN/CANFD interface for ROS device drivers.</description>
   <license>MIT</license>
 
-  <maintainer email="http://www.hlklemove.com/eng/main.do"> HL Klemove AD SW Design / AD LAB </maintainer>
+  <maintainer email="ghjo@cbnu.ac.kr"> </maintainer>
 
   <url type="bugtracker">https://github.com/astuff/kvaser_interface/issues</url>
   <url type="repository">https://github.com/astuff/kvaser_interface</url>
@@ -13,6 +13,7 @@
   <author email="jwhitley@autonomoustuff.com">Joshua Whitley</author>
   <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
   <author email="taehan.kim@halla.com">Taehan Kim</author>
+  <author email="ghjo@cbnu.ac.kr">Gihwan Jo</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 

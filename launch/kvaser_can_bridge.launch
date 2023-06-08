@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="can_hardware_id" default="11182" />
+  <arg name="can_hardware_id" default="15876" />
   <arg name="can_circuit_id" default="0" />
   <arg name="can_bit_rate" default="500000" />
   <arg name="canfd" default="true"/>
